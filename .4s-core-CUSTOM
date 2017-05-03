@@ -8,5 +8,5 @@
 ########################################
 ##     | Shortcut                   | Home       |       Replace 4-S with GitHub username BELOW. Or server with alias file.     | Purposely blank                |                                         | Reload alias   |
 ##-----|----------------------------|------------|------------------------------------------------------------------------------|--------------------------------|-----------------------------------------|----------------|
-#alias 4custom-install-ONCE-custom1 'cd ~        ; fetch https://raw.githubusercontent.com/4-S/4S-custom/master/.4s-custom1     ;                                ; echo "source ~/.4s-custom1" >> ~/.cshrc ; source .cshrc'
-#alias 4custom-update-custom1 'cd ~        ; fetch https://raw.githubusercontent.com/4-S/4S-custom/master/.4s-custom1     ;                                ;                                          ; source .cshrc'
+#alias 4custom-install-ONCE-custom1 'cd ~        ; fetch https://raw.githubusercontent.com/4-S/4S-custom/master/.4s-custom1     ;                                ; echo "source ~/.4s-custom1" >> ~/.cshrc ; source .cshrc  ; head -n 8 .4s-custom1'
+#alias 4custom-update-custom1 'cd ~        ; fetch https://raw.githubusercontent.com/4-S/4S-custom/master/.4s-custom1     ;                                ;                                          ; source .cshrc  ; head -n 8 .4s-custom1'
