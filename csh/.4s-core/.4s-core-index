@@ -6,7 +6,6 @@
 ##
 ## DISABLE WORD WRAP for propper viewing.
 ########################################
-alias 4s-update '4s-update-custom1 ; 4s-update-custom2 ; 4s-update-custom3 ; 4s-update-custom4 ; 4s-update-custom5 ; echo "4S-Core UPDATE Completed"'
 ##     | Shortcut       |        |       Replace 4-S with GitHub username BELOW. Or server with alias file.     | Purposely blank                | echo "source ~/.4s-custom1" >> ~/.cshrc | Reload alias   | Display custom alias |
 ##-----|--------------- |------------|---------------------------------------|-----|--------------------------------|--------------------------------|-----------------------------------------|----------------|----------------------|
 alias 4s-update-custom1 'cd ~/.4s-core ; fetch https://raw.githubusercontent.com/4-S/4S-custom/master/csh/.4s-custom1     ;                                ;                                         ; source .cshrc  ; head -n 8 .4s-custom1'
