@@ -9,10 +9,10 @@
 
 
 ################################################################################
-##   |   Shortcut       |              |                                                               | Purposely blank                | echo "source ~/.4s-custom1" >> ~/.bash_profile| Reload alias      | Display header        |
-##---|----------------- |--------------|---------------------------------------------------------------|--------------------------------|-----------------------------------------|-------------------|-----------------------|
-alias 4s-update-custom1='cd ~/.4s-core ; curl -L http://4s-stable-core.ipfu.org/macos-bash/.4s-custom1 ;                                ;                                         ; source ~/.bash_profile  ; head -n 8 .4s-custom1'
-alias 4s-update-custom2='cd ~/.4s-core ; curl -L http://4s-stable-core.ipfu.org/macos-bash/.4s-custom2 ;                                ;                                         ; source ~/.bash_profile  ; head -n 8 .4s-custom2'
-alias 4s-update-custom3='cd ~/.4s-core ; curl -L http://4s-stable-core.ipfu.org/macos-bash/.4s-custom3 ;                                ;                                         ; source ~/.bash_profile  ; head -n 8 .4s-custom3'
-alias 4s-update-custom4='cd ~/.4s-core ; curl -L http://4s-stable-core.ipfu.org/macos-bash/.4s-custom4 ;                                ;                                         ; source ~/.bash_profile  ; head -n 8 .4s-custom4'
-alias 4s-update-custom5='cd ~/.4s-core ; curl -L http://4s-stable-core.ipfu.org/macos-bash/.4s-custom5 ;                                ;                                         ; source ~/.bash_profile  ; head -n 8 .4s-custom5'
+##   |   Shortcut       |              |                                                                              | Purposely blank                | echo "source ~/.4s-custom1" >> ~/.bash_profile| Reload alias      | Display header        |
+##---|----------------- |--------------|------------------------------------------------------------------------------|--------------------------------|-----------------------------------------|-------------------|-----------------------|
+alias 4s-update-custom1='cd ~/.4s-core ; curl -L http://4s-stable-core.ipfu.org/macos-bash/.4s-custom1 -o .4s-custom1 ;                                ;                                         ; source ~/.bash_profile  ; head -n 8 .4s-custom1'
+alias 4s-update-custom2='cd ~/.4s-core ; curl -L http://4s-stable-core.ipfu.org/macos-bash/.4s-custom2 -o .4s-custom2 ;                                ;                                         ; source ~/.bash_profile  ; head -n 8 .4s-custom2'
+alias 4s-update-custom3='cd ~/.4s-core ; curl -L http://4s-stable-core.ipfu.org/macos-bash/.4s-custom3 -o .4s-custom3 ;                                ;                                         ; source ~/.bash_profile  ; head -n 8 .4s-custom3'
+alias 4s-update-custom4='cd ~/.4s-core ; curl -L http://4s-stable-core.ipfu.org/macos-bash/.4s-custom4 -o .4s-custom4 ;                                ;                                         ; source ~/.bash_profile  ; head -n 8 .4s-custom4'
+alias 4s-update-custom5='cd ~/.4s-core ; curl -L http://4s-stable-core.ipfu.org/macos-bash/.4s-custom5 -o .4s-custom5 ;                                ;                                         ; source ~/.bash_profile  ; head -n 8 .4s-custom5'
