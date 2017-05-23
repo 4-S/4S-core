@@ -9,10 +9,10 @@
 
 
 ################################################################################
-##   |   Shortcut       |              |                                                            | Purposely blank                | echo "source ~/.4s-custom1" >> ~/.bashrc| Reload alias      | Display header        |
-##---|----------------- |--------------|------------------------------------------------------------|--------------------------------|-----------------------------------------|-------------------|-----------------------|
-alias 4s-update-custom1='cd ~/.4s-core ; wget http://4s-stable-custom.ipfu.org/bash/.4s-custom1     ;                                ;                                         ; source ~/.bashrc  ; head -n 8 .4s-custom1'
-alias 4s-update-custom2='cd ~/.4s-core ; wget http://4s-stable-custom.ipfu.org/bash/.4s-custom2     ;                                ;                                         ; source ~/.bashrc  ; head -n 8 .4s-custom2'
-alias 4s-update-custom3='cd ~/.4s-core ; wget http://4s-stable-custom.ipfu.org/bash/.4s-custom3     ;                                ;                                         ; source ~/.bashrc  ; head -n 8 .4s-custom3'
-alias 4s-update-custom4='cd ~/.4s-core ; wget http://4s-stable-custom.ipfu.org/bash/.4s-custom4     ;                                ;                                         ; source ~/.bashrc  ; head -n 8 .4s-custom4'
-alias 4s-update-custom5='cd ~/.4s-core ; wget http://4s-stable-custom.ipfu.org/bash/.4s-custom5     ;                                ;                                         ; source ~/.bashrc  ; head -n 8 .4s-custom5'
+##   |   Shortcut       |              |                                                               | Purposely blank                | echo "source ~/.4s-custom1" >> ~/.bashrc| Reload alias      | Display header        |
+##---|----------------- |--------------|---------------------------------------------------------------|--------------------------------|-----------------------------------------|-------------------|-----------------------|
+alias 4s-update-custom1='cd ~/.4s-core ; wget http://4s-stable-custom.ipfu.org/ubuntu-bash/.4s-custom1 ;                                ;                                         ; source ~/.bashrc  ; head -n 8 .4s-custom1'
+alias 4s-update-custom2='cd ~/.4s-core ; wget http://4s-stable-custom.ipfu.org/ubuntu-bash/.4s-custom2 ;                                ;                                         ; source ~/.bashrc  ; head -n 8 .4s-custom2'
+alias 4s-update-custom3='cd ~/.4s-core ; wget http://4s-stable-custom.ipfu.org/ubuntu-bash/.4s-custom3 ;                                ;                                         ; source ~/.bashrc  ; head -n 8 .4s-custom3'
+alias 4s-update-custom4='cd ~/.4s-core ; wget http://4s-stable-custom.ipfu.org/ubuntu-bash/.4s-custom4 ;                                ;                                         ; source ~/.bashrc  ; head -n 8 .4s-custom4'
+alias 4s-update-custom5='cd ~/.4s-core ; wget http://4s-stable-custom.ipfu.org/ubuntu-bash/.4s-custom5 ;                                ;                                         ; source ~/.bashrc  ; head -n 8 .4s-custom5'
